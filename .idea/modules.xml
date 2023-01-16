@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/order-service/order-service.iml" filepath="$PROJECT_DIR$/order-service/order-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/product-service/product-service.iml" filepath="$PROJECT_DIR$/product-service/product-service.iml" />
+<!--      <module fileurl="file://$PROJECT_DIR$/order-service/order-service.iml" filepath="$PROJECT_DIR$/order-service/order-service.iml" />-->
+<!--      <module fileurl="file://$PROJECT_DIR$/product-service/product-service.iml" filepath="$PROJECT_DIR$/product-service/product-service.iml" />-->
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-webflux-course.iml" filepath="$PROJECT_DIR$/.idea/spring-webflux-course.iml" />
-      <module fileurl="file://$PROJECT_DIR$/user-service/user-service.iml" filepath="$PROJECT_DIR$/user-service/user-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/webflux-demo/webflux-demo.iml" filepath="$PROJECT_DIR$/webflux-demo/webflux-demo.iml" />
+<!--      <module fileurl="file://$PROJECT_DIR$/user-service/user-service.iml" filepath="$PROJECT_DIR$/user-service/user-service.iml" />-->
+<!--      <module fileurl="file://$PROJECT_DIR$/webflux-demo/webflux-demo.iml" filepath="$PROJECT_DIR$/webflux-demo/webflux-demo.iml" />-->
+      <module fileurl="file://$PROJECT_DIR$/webflux-demo2/webflux-demo2.iml" filepath="$PROJECT_DIR$/webflux-demo2/webflux-demo2.iml" />
     </modules>
   </component>
 </project>

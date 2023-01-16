@@ -1,0 +1,5 @@
+### math.square
+GET http://localhost:8080/math/square/4
+
+### math.table
+GET http://localhost:8080/math/table/5
