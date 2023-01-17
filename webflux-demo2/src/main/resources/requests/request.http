@@ -1,5 +1,11 @@
 ### math.square
-GET http://localhost:8080/math/square/4
+GET http://localhost:8080/math/square/{{input}}
 
 ### math.table
-GET http://localhost:8080/math/table/5
+GET http://localhost:8080/math/table/{{input}}
+
+### math.square reactive
+GET http://localhost:8080/reactive-math/square/{{input}}
+
+### math.table reactive
+GET http://localhost:8080/reactive-math/table/{{input}}

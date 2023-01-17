@@ -8,14 +8,17 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="webflux-demo2" />
+        <module name="product-service2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="product-service2" target="11" />
       <module name="webflux-demo2" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="product-service2" options="-parameters" />
       <module name="webflux-demo2" options="-parameters" />
     </option>
   </component>
