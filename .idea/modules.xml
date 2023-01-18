@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/product-service2/product-service2.iml" filepath="$PROJECT_DIR$/product-service2/product-service2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-webflux-course.iml" filepath="$PROJECT_DIR$/.idea/spring-webflux-course.iml" />
-      <module fileurl="file://$PROJECT_DIR$/user-service2/user-service2.iml" filepath="$PROJECT_DIR$/user-service2/user-service2.iml" />
       <module fileurl="file://$PROJECT_DIR$/webflux-demo2/webflux-demo2.iml" filepath="$PROJECT_DIR$/webflux-demo2/webflux-demo2.iml" />
     </modules>
   </component>
