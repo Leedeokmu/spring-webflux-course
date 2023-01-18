@@ -16,5 +16,10 @@
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="prm-maven-group" />
+      <option name="name" value="prm-maven-group" />
+      <option name="url" value="https://prm.ebaykorea.com/nexus/repository/maven-group/" />
+    </remote-repository>
   </component>
 </project>

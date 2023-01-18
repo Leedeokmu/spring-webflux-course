@@ -1,0 +1,10 @@
+### 상품 데이터 입력
+POST http://localhost:8091/product
+Content-Type: application/json
+
+{
+  "description": "test description2",
+  "price": 200
+}
+### 상품 데이터 전체 조회
+GET http://localhost:8091/product/all
