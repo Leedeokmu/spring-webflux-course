@@ -3,10 +3,11 @@ package com.freeefly.productservice2.service;
 import com.freeefly.productservice2.dto.ProductDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
-//@Service
+@Service
 @RequiredArgsConstructor
 public class DataSetupService implements CommandLineRunner {
 
