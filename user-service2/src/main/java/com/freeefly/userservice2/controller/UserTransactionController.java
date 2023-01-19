@@ -18,7 +18,7 @@ public class UserTransactionController {
     private final TransactionService transactionService;
 
     @PostMapping
-    public Mono<TransactionResponseDto> createTranscation(
+    public Mono<TransactionResponseDto> createTransaction(
         @RequestBody Mono<TransactionRequestDto> requestDtoMono) {
         return requestDtoMono.flatMap(transactionService::createTransaction);
 

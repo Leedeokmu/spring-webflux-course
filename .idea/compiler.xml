@@ -7,19 +7,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="user-service2" />
         <module name="webflux-demo2" />
+        <module name="user-service2" />
         <module name="product-service2" />
+        <module name="order-service2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="product-service2" target="1.6" />
+      <module name="order-service2" target="11" />
+      <module name="product-service2" target="11" />
       <module name="user-service2" target="11" />
       <module name="webflux-demo2" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="order-service2" options="-parameters" />
       <module name="product-service2" options="-parameters" />
       <module name="user-service2" options="-parameters" />
       <module name="webflux-demo2" options="-parameters" />

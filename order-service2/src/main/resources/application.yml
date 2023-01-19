@@ -1,0 +1,8 @@
+server:
+  port: 8093
+
+services:
+  product:
+    url: http://localhost:8091/product/
+  user:
+    url: http://localhost:8092/user/
