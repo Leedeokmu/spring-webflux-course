@@ -5,7 +5,19 @@ services:
     ports:
       - 27017:27017
     volumes:
-      - ~/mongodb:/data/db
+      - ~/docker-db/mongodb:/data/db
+  postgres:
+    image: postgres
+    container_name: postgres
+    volumes:
+      - ~/docker-db/postgres:/var/lib/postgresql/data
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_USER=freeefly
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_DB=userdb
+
 #  mongo-express:
 #    image: mongo-express
 #    ports:
